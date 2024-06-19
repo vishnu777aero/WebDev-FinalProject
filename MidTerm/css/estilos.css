@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    color: white;
+    height: 450px;
+    background-image: url("/imagens/banner/1.jpg");
+    background-size: cover;
+}
+
+.banner h4 {
+    float: left;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.banner nav {
+    float: right;
+}
+
+.banner nav a {
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.banner nav a:hover {
+    background-color: red;
+}
+
+.banner h1 {
+    text-align: center;
+}
