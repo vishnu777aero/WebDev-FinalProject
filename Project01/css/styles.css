@@ -7,10 +7,11 @@
     outline: none;
 }
 
-body{
+.bg-image-container {
+    height: 800px;
     background-image: url("../imagens/fundo.jpg");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
 
 }
 
@@ -96,11 +97,10 @@ header a:hover{
 main{
     width: 990px;
     margin: 0 auto;
-    margin-top: 350px;
 }
 
 
-.offers h1, .agency-details h1, .contract h1{
+.offers h1, .agency-details h1, .contact h1{
     text-align: center;
     font-size: 30px;
     padding: 40px;
@@ -192,10 +192,6 @@ offers li:nth-child(7){
     font-size: 12px;
 }
 
-.agency-details, .contract {
-    margin-top: -50px;
-}
-
 .agency-details img, .contract img {
     width: 300px;
 }
@@ -216,7 +212,7 @@ offers li:nth-child(7){
 .agency-details li:nth-child(1) {
     float: left;
 }
-
+/* 
 .contract ul {
     list-style-type: none;
 }
@@ -239,7 +235,7 @@ offers li:nth-child(7){
     margin: 10px;
     padding: 5px;
     border-radius: 8px;
-}
+} */
 
 footer{
     margin-top: 80px;
@@ -274,5 +270,40 @@ footer p{
     font-size: 12px;
 }
 
+.contact {
+    overflow: hidden;
+}
 
+.contact iframe {
+    float: left;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 450px;
+    height: 335px;
+}
 
+.contact form {
+    float: right;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.contact input[type="text"],
+.contact textarea {
+    width: 415px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.contact textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact input[type="submit"] {
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+}
