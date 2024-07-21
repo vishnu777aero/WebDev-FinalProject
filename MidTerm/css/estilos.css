@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.banner {
+    color: white;
+    height: 460px;
+    background-image: url("/imagens/banner/1.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 35px;
+    box-shadow: 0px 2px 5px 5px black;
+}
+
+.banner h4 {
+    float: left;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.banner nav {
+    float: right;
+}
+
+.banner nav a {
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.banner nav a:hover {
+    background-color: red;
+}
+
+.banner h1 {
+    margin: 160px;
+    text-align: center;
+    font-size: 48px;
+}
+
+hr {
+    margin: auto;
+    margin-top: 20px;
+    height: 3px;
+    background-color: red;
+}
+
+.banner + hr {
+    width: 300px;
+}
+
+.segmentos {
+    text-align: center;
+}
+
+.segmentos > h2, .pratos h2 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.segmentos > ul {
+    margin-top: 20px;
+}
+
+.segmentos li {
+    margin: 5px;
+    display: inline-block;
+    width: 170px;
+}
+
+.segmentos h4 {
+    padding: 10px;
+    font-weight: 100px;
+    font-size: 14px;
+}
+
+.segmentos li p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.segmentos + hr {
+    margin-top: 60px;
+    width: 150px;
+}
+
+.pratos {
+    text-align: center;
+}
+
+.pratos > ul {
+    margin-top: 20px;
+}
+
+.pratos > ul li {
+    display: inline-block;
+    width: 400px;
+    font-size: 12px;
+}
+
+.pratos > ul li label {
+    padding: 10px;
+    display: block;
+}
+
+.pratos > ul li img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
