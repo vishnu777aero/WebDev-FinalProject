@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+    <!--LOGIN INFO username: alex - password: 2323--> 
+        <style>
+        .uDiv {
+            margin-left: 30px;
+            max-height: 250px;
+            max-width: 220px;
+        }
+        #uid {
+            margin-left: 30px;
+            max-height: 250px;
+            max-width: 220px;
+        }
+        .pwordDiv {
+            margin-left: 30px;
+            max-height: 250px;
+            max-width: 220px;
+
+        }
+        #pword {
+            margin-left: 30px;
+            max-height: 250px;
+            max-width: 220px;
+
+        }
+        #lbutton{
+            margin-left: 185px;
+        }
+        #titleArea{
+            margin-left: 63px;
+            font-family: Impact;
+            font-size: 23px;
+        }
+    </style>     
+</head>
+<body>
+    
+        <div id="titleArea">
+        <p>College Course Login</p>
+    </div>
+
+<form name="Login">
+    <!--userid area--> 
+    <div class="uDiv">
+  <span class="input-group-text" id="uid"></span>
+  <input type="text" class="form-control" placeholder="USER ID:" aria-label="uid" id = "uid" aria-describedby="basic-addon1">
+<br>
+<!--password area--> 
+</div>
+<div class="pwordDiv">
+  <span class="input-group-text" id="pword"></span>
+  <input type="password" class="form-control" placeholder="PASSWORD: " aria-label="pword" id="pword" aria-describedby="basic-addon1">
+</div>
+<br>
+<!--login button area--> 
+<div class="lbutton">
+<button type="button" class="btn btn-info" onclick = "checkStuff(this.form)" id="lbutton">Login</button>
+</div>
+</form>
+  
+<script language="javascript">
+    function checkStuff(form){
+        if(form.uid.value== "alex"&& form.pword.value=="2323"){
+            window.open("main.html");
+        }else{
+            alert("Wrong info, try again");
+        }
+    }
+</script>        
+        
+</body>
+</html>
