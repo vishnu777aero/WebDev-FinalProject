@@ -1,0 +1,4 @@
+.banner::before {
+    filter: blur(2px);
+    background-image: url("../Images/other/pexels-polina-kovaleva-7511833.jpg");
+}

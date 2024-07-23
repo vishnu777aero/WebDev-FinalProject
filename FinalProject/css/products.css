@@ -1,0 +1,4 @@
+.banner::before {
+    filter: blur(2px);
+    background-image: url("../Images/other/pexels-rdne-8540920.jpg");
+}
