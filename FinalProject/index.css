@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.banner {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner > nav {
+    padding: 5px 10px;
+    height: 20px
+}
+
+.banner > nav > h3 {
+    float: left;
+}
+
+.banner > nav > ul {
+    float: right;
+}
+
+.banner > section {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner > section > p {
+    max-width: 800px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content ul {
+    display: flex;
+}
+
+.content li {
+    display: inline-block;
+    flex-grow: 1;
+    width: 200px;
+    margin: 10px;
+}
+
+.content li > div {
+    padding: 10px;
+}
+
+.content li > div > h3 {
+    text-align: center;
+}
+
+.content li > img {
+    height: 200px;
+    width: 100%;
+}
+
+.content p {
+    font-size: smaller;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: x-small;
+}
+
+footer p {
+    text-indent: unset;
+    display: inline;
+    margin: 5px 10px;
+}
+
+footer > p {
+    font-weight: bold;
+}
