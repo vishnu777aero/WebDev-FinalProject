@@ -5,26 +5,51 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    user-select: none;
 }
 
 .banner {
-    height: 400px;
+    color: white;
+    height: 700px;
     display: flex;
     flex-direction: column;
+    background-image: url("./Images/pexels-wendywei-1656663.jpg");
+    background-size: cover;
 }
 
 .banner > nav {
-    padding: 5px 10px;
-    height: 20px
+    box-shadow: 0 0 20px 0px black;
+    background-color: #00000047;
 }
 
 .banner > nav > h3 {
     float: left;
+    height: 30px;
+    padding: 0 5px;
 }
 
 .banner > nav > ul {
     float: right;
+    height: 30px;
+    display: flex;
 }
+
+.banner > nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: smaller;
+    text-align: center;
+    padding: 6px 6px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: darkgreen;
+    transition: ease-in background-color 0.25s;
+}
+
+.banner > nav a:hover {
+    background-color: rgb(43, 179, 43);
+ }
 
 .banner > section {
     display: flex;
@@ -34,8 +59,16 @@
     flex-direction: column;
 }
 
+.banner > section > h1 {
+    font-size: 40px;
+}
+
 .banner > section > p {
     max-width: 800px;
+    display: block;
+    background-color: #00000047;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 p {
@@ -54,7 +87,14 @@ p {
     display: inline-block;
     flex-grow: 1;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px 0px;
+    border-radius: 6px;
+    transition: ease-out transform 0.25s;
+}
+
+.content li:hover {
+    transform: scale(1.05);
 }
 
 .content li > div {
