@@ -1,4 +1,25 @@
+p {
+    text-indent: unset;
+    font-size: small;
+}
+
 .banner::before {
     filter: blur(2px);
     background-image: url("../Images/other/pexels-rdne-8540920.jpg");
+}
+
+#productsDisplayBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: 1 1 50%;
+}
+
+.product > img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
 }
