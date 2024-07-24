@@ -84,6 +84,23 @@
     transition: ease-in background-color 0.25s;
 }
 
+.banner > nav a:first-child {
+    cursor: url("../Images/cursor/home-small.png"), auto;
+}
+
+.banner > nav a:nth-child(2) {
+    cursor: url("../Images/cursor/vegetable-small.png"), auto;
+}
+
+.banner > nav a:nth-child(3) {
+    cursor: url("../Images/cursor/vegetable-boxed-small.png"), auto;
+}
+
+
+.banner > nav a:last-child {
+    cursor: url("../Images/cursor/book-small.png"), auto;
+}
+
 .banner>nav a:hover {
     background-color: rgb(43, 179, 43);
 }
