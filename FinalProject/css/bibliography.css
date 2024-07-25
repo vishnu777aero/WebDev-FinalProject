@@ -2,3 +2,21 @@
     filter: blur(2px);
     background-image: url("../Images/other/pexels-polina-kovaleva-7511833.jpg");
 }
+
+.reset {
+    height: 100px;
+    width: 100px;
+    cursor: pointer !important;
+    margin: 0 auto;
+    display: block;
+}
+
+h4 {
+    text-align: center;
+}
+
+ol {
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="css/bibliography.css">
     <title>Bibliography</title>
     <link rel="icon" href="./Images/cursor/tomato-small.png" type="image/x-icon">
+    <script type="module" src="./js/bibliography.js" defer></script>
 </head>
+
 <body>
     <div class="banner">
         <nav>
@@ -22,10 +25,22 @@
     </div>
     <div class="content-other-pages">
         <!-- Section for List of resources used for this project -->
-         <a href="https://www.pexels.com/">Pictures taken from</a>
-         <a href="https://">Fonts taken from Google Fonts</a>
-         https://www.flaticon.com/free-icons/
-         https://www.iloveimg.com/
+         <div>
+            <h4>Resetting the app would delete all data stored, which includes</h4>
+            <ol>
+                <li>Username and Passwords</li>
+                <li>Cookies</li>
+                <li>Saved Cart Items</li>
+                <li>Resets Inventory Items</li>
+            </ol>
+            <img class="reset" src="./Images/icons/reset.png" alt="reset-app" id="reset-button" onclick="resetAppData()">
+         </div>
+        <div>
+            <a href="https://www.pexels.com/">Pictures(pexels.com)</a>
+            <a href="https://fonts.google.com/">Fonts(Google fonts)</a>
+            <a href="https://www.flaticon.com/free-icons/">Icons(flaticon.com)</a>
+            <a href="https://www.iloveimg.com/">Image Resizing(iloveimg.com)</a>
+        </div>
     </div>
     <footer>
         <section>
@@ -35,4 +50,5 @@
         <p>Copyright 2024</p>
     </footer>
 </body>
+
 </html>
