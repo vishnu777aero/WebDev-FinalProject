@@ -449,7 +449,7 @@ const displayTotal = (price) => {
         totalPrice = produce.reduce((p, c) => p + (c.selectedAmount || 0) * c.priceKg, 0);
     }
 
-    document.getElementById("total").innerHTML = `<b>$${totalPrice.toFixed(2)}</b>`;
+    document.getElementById("total").innerHTML = `<p>Total</p><b>$${totalPrice.toFixed(2)}</b>`;
 }
 
 displayTotal();
