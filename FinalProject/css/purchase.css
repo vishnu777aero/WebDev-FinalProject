@@ -3,6 +3,83 @@
     background-image: url("../Images/other/pexels-count-chris-44396569-9524918.jpg");
 }
 
-.table {
+table {
+    margin: 0 auto;
     text-align: center;
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(35, 184, 35);
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+p#message {
+    color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: unset;
+}
+
+.success {
+    color: white;
+    background-color: green;
+}
+
+.success:hover {
+    background-color: rgb(2, 104, 2);
+}
+
+.normal {
+    color: white;
+    background-color: royalblue;
+}
+
+.normal:hover {
+    background-color: rgb(49, 80, 170);
+}
+
+.cancel {
+    color: white;
+    background-color: orange;
+}
+
+.cancel:hover {
+    background-color: rgb(190, 125, 4);
+}
+
+dialog {
+    margin: auto;
+}
+
+dialog h2 {
+    text-align: center;
+}
+
+dialog > .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#login-dialog td, #signup-dialog td {
+    border-color: transparent;
+}
+
+.error {
+    color: red;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
 }

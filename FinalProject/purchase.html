@@ -22,13 +22,14 @@
         </nav>
     </div>
     <div class="content-other-pages">
-        <!-- Section for handling purchasing of order -->
         <table class="table">
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Product Name</th>
                     <th>Product Type</th>
+                    <th>Product Color</th>
+                    <th>Product Description</th>
                     <th>Price per kg</th>
                     <th>Available Quantity</th>
                     <th>Selected Quantity</th>
@@ -41,7 +42,50 @@
             </tbody>
     
         </table>
+        <p id="message"></p>
+    <div style="margin: 10px auto; width: fit-content;">
+        <button class="cancel" onclick="updateCart()"><< Update Purchase</button>
+        <b id="total"></b>
+        <button class="success" onclick="startPurchase()">Confirm Purchase >></button>
     </div>
+    </div>
+    <dialog id="login-dialog">
+        <div class="container">
+            <h2>Login</h2>
+            <table>
+                <tr>
+                    <td><label>Username: </label></td>
+                    <td><input type="text" id="login-username"></td>
+                </tr>
+                <tr>
+                    <td><label>Password: </label></td>
+                    <td><input type="password" id="login-password"></td>
+                </tr>
+            </table>
+            <p class="error"></p>
+            <button class="success" onclick="verifyPurchase()">Log In</button>
+            <button class="normal" onclick="openSignupDialog()">Register</button>
+            <button class="cancel" onclick="closeLoginDialog()">Close</button>
+        </div>
+    </dialog>
+    <dialog id="signup-dialog">
+        <div class="container">
+            <h2>Sign up</h2>
+            <table>
+                <tr>
+                    <td><label>Username: </label></td>
+                    <td><input type="text" id="signup-username"></td>
+                </tr>
+                <tr>
+                    <td><label>Password: </label></td>
+                    <td><input type="password" id="signup-password"></td>
+                </tr>
+            </table>
+            <p class="error"></p>
+            <button class="success" onclick="addNewUser()">Confirm</button>
+            <button class="cancel" onclick="closeSignupDialog()">Close</button>
+        </div>
+    </dialog>
     <footer>
         <section>
             <p>Vishnu Narayanan</p>

@@ -35,9 +35,9 @@ const displayProduce = (produce) => {
 
 displayProduce(produce);
 
-const addProductButton = (stringId) => {
+window.addProductButton = (stringId) => {
     const id = +stringId.split("-")[1];
-    item = produce.find(item => item.id === id);
+    const item = produce.find(item => item.id === id);
 
     const maxValue = item.availableQty;
     const priceKg = item.priceKg;
@@ -56,9 +56,10 @@ const addProductButton = (stringId) => {
     }
 }
 
-const removeProductButton = (stringId) => {
+
+window.removeProductButton = (stringId) => {
     const id = +stringId.split("-")[1];
-    item = produce.find(item => item.id === id);
+    const item = produce.find(item => item.id === id);
 
     const maxValue = item.availableQty;
     const priceKg = item.priceKg;
@@ -77,7 +78,7 @@ const removeProductButton = (stringId) => {
     }
 }
 
-const onSearch = () => {
+window.onSearch = () => {
     const name = document.getElementById("filter-name").value;
     const type = document.getElementById("filter-type").value;
     const color = document.getElementById("filter-color").value;
@@ -95,7 +96,7 @@ const onSearch = () => {
     displayProduce(filteredProduce);
 }
 
-const onClear = () => {
+window.onClear = () => {
     displayProduce(produce)
 
     document.getElementById("filter-name").value = "";
@@ -104,27 +105,27 @@ const onClear = () => {
     document.getElementById("filter-season").value = "any";
 };
 
-const onShowCart = () => {
+window.onShowCart = () => {
     const selectedItems = produce.filter(item => !!item.selectedAmount);
     displayProduce(selectedItems);
     onSaveCart();
 }
 
-const onSaveCart = () => {
+window.onSaveCart = () => {
     localStorage.setItem("allItems", JSON.stringify(produce));
 }
 
-const onClearCart = () => {
+window.onClearCart = () => {
     produce.forEach(item => delete item.selectedAmount);
     displayProduce(produce);
     onSaveCart();
     displayTotal(0);
 }
 
-const displayTotal = (price) => {
+window.displayTotal = (price) => {
     let totalPrice = 0.0;
 
-    if(!price) {
+    if (!price) {
         totalPrice = produce.reduce((p, c) => p + (c.selectedAmount || 0) * c.priceKg, 0);
     }
 
@@ -132,3 +133,23 @@ const displayTotal = (price) => {
 }
 
 displayTotal();
+
+const checkQueryParams = () => {
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get('showCart');
+
+    if (name === 'true') {
+        onShowCart();
+    }
+
+    if(name) {
+        const url = new URL(window.location);
+        url.search = '';
+
+        window.history.replaceState({}, '', url.toString());
+    }
+}
+
+checkQueryParams();
+
+window.onbeforeunload = onSaveCart;
