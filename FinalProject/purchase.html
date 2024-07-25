@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/purchase.css">
     <title>Purchase</title>
     <link rel="icon" href="./Images/cursor/tomato-small.png" type="image/x-icon">
+    <script type="module" src="./js/purchase.js"></script>
 </head>
 <body>
     <div class="banner">
@@ -22,7 +23,24 @@
     </div>
     <div class="content-other-pages">
         <!-- Section for handling purchasing of order -->
-        <!-- Use table for inventory items -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Product Name</th>
+                    <th>Product Type</th>
+                    <th>Price per kg</th>
+                    <th>Available Quantity</th>
+                    <th>Selected Quantity</th>
+                    <th>Subtotal(CAD) $</th>
+                </tr>
+            </thead>
+    
+            <tbody id="table">
+                
+            </tbody>
+    
+        </table>
     </div>
     <footer>
         <section>

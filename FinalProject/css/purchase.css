@@ -2,3 +2,7 @@
     filter: blur(2px);
     background-image: url("../Images/other/pexels-count-chris-44396569-9524918.jpg");
 }
+
+.table {
+    text-align: center;
+}
