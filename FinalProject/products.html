@@ -14,15 +14,54 @@
         <nav>
             <h3>Québec Farmer's Shop</h3>
             <ul>
-                <a href="index.html">Home</a>
-                <a href="#">Our Products</a>
-                <a href="purchase.html">Purchase</a>
+                <a href="index.html">Home >> </a>
+                <a href="#">Our Products >> </a>
+                <a href="purchase.html">Purchase >> </a>
                 <a href="bibliography.html">Bibliography</a>
             </ul>
         </nav>
     </div>
     <div class="content-other-pages">
         <section class="filter">
+            <label>
+                <b>Name(like): </b>
+                <input type="text" id="filter-name">
+            </label>
+            <label>
+                <b>Season: </b>
+                <select name="" id="filter-season">
+                    <option value="any">Any</option>
+                    <option value="summer">Summer</option>
+                    <option value="spring">Spring</option>
+                    <option value="fall">Fall</option>
+                    <option value="winter">Winter</option>
+                </select>
+            </label>
+            <label>
+                <b>Type: </b>
+                <select name="" id="filter-type">
+                    <option value="any">Any</option>
+                    <option value="fruit">Fruit</option>
+                    <option value="vegetable">Vegetable</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+            <label>
+                <b>Color: </b>
+                <select name="" id="filter-color">
+                    <option value="any">Any</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="orange">Orange</option>
+                    <option value="green">Green</option>
+                    <option value="brown">Brown</option>
+                    <option value="blue">Blue</option>
+                    <option value="peach">Peach</option>
+                    <option value="purple">Purple</option>
+                </select>
+            </label>
+            <button class="button success" onclick="onSearch()">Search</button>
+            <button class="button cancel" onclick="onClear()">Clear</button>
         </section>
         <section id="productsDisplayBox">
         </section>

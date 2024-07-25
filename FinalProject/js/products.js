@@ -5,7 +5,7 @@ const produce = [
         color: "Red",
         description: "Crisp and sweet, perfect for snacking.",
         availableQty: 500,
-        imageUrl: "https://example.com/apple.jpg",
+        imageUrl: "./Images/produce/apples.jpg",
         isSeasonal: true,
         season: "Fall",
         priceKg: 3.5,
@@ -18,7 +18,7 @@ const produce = [
         color: "Yellow",
         description: "Rich in potassium, great for energy.",
         availableQty: 300,
-        imageUrl: "https://example.com/banana.jpg",
+        imageUrl: "./Images/produce/bananas.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 1.2,
@@ -31,7 +31,7 @@ const produce = [
         color: "Orange",
         description: "Crunchy and sweet, great for salads.",
         availableQty: 400,
-        imageUrl: "https://example.com/carrot.jpg",
+        imageUrl: "./Images/produce/carrots.jpg",
         isSeasonal: true,
         season: "Winter",
         priceKg: 2.0,
@@ -44,7 +44,7 @@ const produce = [
         color: "Red",
         description: "Juicy and tangy, perfect for sauces.",
         availableQty: 350,
-        imageUrl: "https://example.com/tomato.jpg",
+        imageUrl: "./Images/produce/tomatoes.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 2.5,
@@ -57,7 +57,7 @@ const produce = [
         color: "Red",
         description: "Sweet and juicy, great for desserts.",
         availableQty: 200,
-        imageUrl: "https://example.com/strawberry.jpg",
+        imageUrl: "./Images/produce/strawberries.jpg",
         isSeasonal: true,
         season: "Spring",
         priceKg: 6.0,
@@ -70,7 +70,7 @@ const produce = [
         color: "Green",
         description: "Leafy and nutritious, perfect for salads.",
         availableQty: 150,
-        imageUrl: "https://example.com/spinach.jpg",
+        imageUrl: "./Images/produce/spinaches.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 3.0,
@@ -83,7 +83,7 @@ const produce = [
         color: "Brown",
         description: "Starchy and versatile, great for many dishes.",
         availableQty: 600,
-        imageUrl: "https://example.com/potato.jpg",
+        imageUrl: "./Images/produce/potatoes.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 2.99,
@@ -96,7 +96,7 @@ const produce = [
         color: "Orange",
         description: "Citrusy and refreshing, great for juices.",
         availableQty: 250,
-        imageUrl: "https://example.com/orange.jpg",
+        imageUrl: "./Images/produce/oranges.jpg",
         isSeasonal: true,
         season: "Winter",
         priceKg: 3.0,
@@ -109,7 +109,7 @@ const produce = [
         color: "Green",
         description: "Crunchy and nutritious, great for stir-fries.",
         availableQty: 180,
-        imageUrl: "https://example.com/broccoli.jpg",
+        imageUrl: "./Images/produce/broccolis.jpg",
         isSeasonal: true,
         season: "Fall",
         priceKg: 4.0,
@@ -122,7 +122,7 @@ const produce = [
         color: "Purple",
         description: "Sweet and juicy, perfect for snacking.",
         availableQty: 220,
-        imageUrl: "https://example.com/grapes.jpg",
+        imageUrl: "./Images/produce/grapes.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 5.5,
@@ -135,7 +135,7 @@ const produce = [
         color: "Green",
         description: "Crisp and sweet, great for salads.",
         availableQty: 270,
-        imageUrl: "https://example.com/bellpepper.jpg",
+        imageUrl: "./Images/produce/bell-peppers.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 3.5,
@@ -148,7 +148,7 @@ const produce = [
         color: "Blue",
         description: "Sweet and tangy, perfect for desserts.",
         availableQty: 180,
-        imageUrl: "https://example.com/blueberry.jpg",
+        imageUrl: "./Images/produce/blueberries.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 8.0,
@@ -161,7 +161,7 @@ const produce = [
         color: "Green",
         description: "Refreshing and hydrating, great for salads.",
         availableQty: 240,
-        imageUrl: "https://example.com/cucumber.jpg",
+        imageUrl: "./Images/produce/cucumbers.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 2.2,
@@ -174,7 +174,7 @@ const produce = [
         color: "Orange",
         description: "Tropical and sweet, great for smoothies.",
         availableQty: 150,
-        imageUrl: "https://example.com/mango.jpg",
+        imageUrl: "./Images/produce/mangoes.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 4.0,
@@ -187,7 +187,7 @@ const produce = [
         color: "Yellow",
         description: "Pungent and versatile, essential for cooking.",
         availableQty: 350,
-        imageUrl: "https://example.com/onion.jpg",
+        imageUrl: "./Images/produce/onions.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 1.5,
@@ -200,7 +200,7 @@ const produce = [
         color: "Peach",
         description: "Juicy and sweet, perfect for desserts.",
         availableQty: 200,
-        imageUrl: "https://example.com/peach.jpg",
+        imageUrl: "./Images/produce/peaches.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 4.5,
@@ -213,7 +213,7 @@ const produce = [
         color: "Green",
         description: "Mild and tender, great for stir-fries.",
         availableQty: 220,
-        imageUrl: "https://example.com/zucchini.jpg",
+        imageUrl: "./Images/produce/zucchinis.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 2.8,
@@ -226,7 +226,7 @@ const produce = [
         color: "Yellow",
         description: "Tropical and tangy, perfect for snacks.",
         availableQty: 130,
-        imageUrl: "https://example.com/pineapple.jpg",
+        imageUrl: "./Images/produce/pineapples.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 3.0,
@@ -239,7 +239,7 @@ const produce = [
         color: "Green",
         description: "Crisp and fresh, great for salads.",
         availableQty: 250,
-        imageUrl: "https://example.com/lettuce.jpg",
+        imageUrl: "./Images/produce/lettuces.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 1.8,
@@ -252,7 +252,7 @@ const produce = [
         color: "Green",
         description: "Sweet and juicy, great for snacks.",
         availableQty: 200,
-        imageUrl: "https://example.com/pear.jpg",
+        imageUrl: "./Images/produce/pears.jpg",
         isSeasonal: true,
         season: "Fall",
         priceKg: 3.5,
@@ -265,7 +265,7 @@ const produce = [
         color: "Green",
         description: "Crunchy and nutritious, great for salads.",
         availableQty: 180,
-        imageUrl: "https://example.com/cabbage.jpg",
+        imageUrl: "./Images/produce/cabbages.jpg",
         isSeasonal: false,
         season: "All",
         priceKg: 2.5,
@@ -278,7 +278,7 @@ const produce = [
         color: "Brown",
         description: "Tangy and sweet, great for snacks.",
         availableQty: 160,
-        imageUrl: "https://example.com/kiwi.jpg",
+        imageUrl: "./Images/produce/kiwis.jpg",
         isSeasonal: true,
         season: "Winter",
         priceKg: 5.0,
@@ -291,7 +291,7 @@ const produce = [
         color: "Red",
         description: "Earthy and sweet, great for salads.",
         availableQty: 200,
-        imageUrl: "https://example.com/beetroot.jpg",
+        imageUrl: "./Images/produce/beetroots.jpg",
         isSeasonal: true,
         season: "Fall",
         priceKg: 3.0,
@@ -304,7 +304,7 @@ const produce = [
         color: "Green",
         description: "Refreshing and hydrating, perfect for summer.",
         availableQty: 100,
-        imageUrl: "https://example.com/watermelon.jpg",
+        imageUrl: "./Images/produce/watermelons.jpg",
         isSeasonal: true,
         season: "Summer",
         priceKg: 1.5,
@@ -313,27 +313,92 @@ const produce = [
     }
 ];
 
-let displayString = ``;
+const displayProduce = (produce) => {
+    let displayString = ``;
 
-produce.forEach(({ name, description, color, availableQty, imageUrl, season, priceKg, nutritionInfo, rating }) => {
-    displayString += `
-        <div class="product">
+    produce.forEach(({ name, description, color, availableQty, imageUrl, season, priceKg, nutritionInfo, rating, selectedAmount }, i) => {
+        displayString += `
+        <div class="product" id="product-${i + 1}">
                 <img src="${imageUrl}" alt="image of ${color} ${name}">
                 <div>
                     <h3>${name}</h3>
-                    <p>${description}</p>
-                    <p>${season}</p>
-                    <p>${availableQty}</p>
-                    <p>${priceKg}</p>
-                    <p>${nutritionInfo}</p>
-                    <p>${rating}</p>
+                    <p>${description}<b>(ID:${i + 1})</b></p>
+                    <p><b>Season: </b>${season}</p>
+                    <p><b>Available Quantity: </b>${availableQty}</p>
+                    <p><b>Price per kg: </b>${priceKg}</p>
+                    <p><b>Nutrition: </b>${nutritionInfo}</p>
+                    <p><b>Rating(out of 5): </b>${rating}</p>
                     <p>Add to cart?</p>
-                    <button>+</button>
-                    <input type="text" value="0">
-                    <button>-</button>
+                    <button class="orange" onClick="removeProductButton('product-${i + 1}')">-</button>
+                    <input type="text" value="${selectedAmount || 0}">
+                    <button class="green" onClick="addProductButton('product-${i + 1}')">+</button>
                 </div>
             </div>
     `
-});
+    });
 
-document.getElementById("productsDisplayBox").innerHTML = displayString;
+    if(!produce || !produce.length) {
+        displayString = "<b>No Items found, change filter parameters</b>";
+    }
+
+    document.getElementById("productsDisplayBox").innerHTML = displayString;
+}
+
+displayProduce(produce);
+
+const addProductButton = (id) => {
+    const index = +id.split("-")[1] - 1;
+    item = produce[index];
+
+    const maxValue = item.availableQty;
+
+    const input = document.getElementById(id).getElementsByTagName("input")[0];
+    const selectedAmount = Number(input.value) + 1;
+
+    if (selectedAmount <= maxValue && selectedAmount >= 0) {
+        input.value = selectedAmount;
+        item["selectedAmount"] = selectedAmount;
+    }
+}
+
+const removeProductButton = (id) => {
+    const index = +id.split("-")[1] - 1;
+    item = produce[index];
+
+    const maxValue = item.availableQty;
+
+    const input = document.getElementById(id).getElementsByTagName("input")[0];
+    const selectedAmount = Number(input.value) - 1;
+
+    if (selectedAmount <= maxValue && selectedAmount >= 0) {
+        input.value = selectedAmount;
+        item["selectedAmount"] = selectedAmount;
+    }
+}
+
+const onSearch = () => {
+    const name = document.getElementById("filter-name").value;
+    const type = document.getElementById("filter-type").value;
+    const color = document.getElementById("filter-color").value;
+    const season = document.getElementById("filter-season").value;
+
+    const filteredProduce = produce.filter((item) => {
+        const hasSameName = name ? item.name.toLowerCase().includes(name.toLowerCase()) : true;
+        const hasSameType = type === 'any' ? true : item.type.toLowerCase() === type.toLowerCase();
+        const hasSameColor = color === 'any' ? true : item.color.toLowerCase() === color.toLowerCase();
+        const hasSameSeason = season === 'any' ? true : item.season.toLowerCase() === season.toLowerCase();
+
+        return hasSameName && hasSameType && hasSameColor && hasSameSeason;
+    });
+
+    displayProduce(filteredProduce);
+}
+
+const onClear = () => {
+    displayProduce(produce)
+
+    document.getElementById("filter-name").value = "";
+    document.getElementById("filter-type").value = "any";
+    document.getElementById("filter-color").value = "any";
+    document.getElementById("filter-season").value = "any";
+};
