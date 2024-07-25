@@ -49,6 +49,10 @@ button.cancel:hover {
     background-color: rgb(99, 133, 33);
 }
 
+button.danger {
+    background-color: brown;
+}
+
 #productsDisplayBox {
     display: flex;
     flex-wrap: wrap;
@@ -100,4 +104,21 @@ button.orange {
 .product input {
     width: 50px;
     text-align: center;
+}
+
+#total {
+    color: green;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    outline-offset: -10px;
+    outline-style: dashed;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

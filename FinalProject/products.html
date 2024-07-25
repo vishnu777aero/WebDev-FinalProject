@@ -60,12 +60,16 @@
                     <option value="purple">Purple</option>
                 </select>
             </label>
-            <button class="button success" onclick="onSearch()">Search</button>
-            <button class="button cancel" onclick="onClear()">Clear</button>
+            <button class="button success" onclick="onSearch()">Show Search</button>
+            <button class="button orange" onclick="onClear()">Show All</button>
+            <button class="button success" onclick="onShowCart()">Show Cart</button>
+            <button class="button danger" onclick="onClearCart()">Clear Cart</button>
+            <button class="button success" onclick="onSaveCart()">Save Cart</button>
         </section>
         <section id="productsDisplayBox">
         </section>
     </div>
+    <div id="total"></div>
     <footer>
         <section>
             <p>Vishnu Narayanan</p>
