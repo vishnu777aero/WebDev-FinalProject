@@ -11,7 +11,7 @@
     display: block;
 }
 
-h4 {
+h4, p {
     text-align: center;
 }
 
@@ -19,4 +19,8 @@ ol {
     padding: 10px;
     margin: 0 auto;
     width: fit-content;
+}
+
+.content-other-pages > div {
+    margin: 20px auto;
 }
