@@ -123,3 +123,17 @@ button.orange {
     justify-content: center;
     align-items: center;
 }
+
+.cta-button {
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    margin: 5px auto;
+    border-color: transparent;
+    border-radius: 6px;
+    display: block;
+}
+
+.cta-button:hover {
+    background-color: rgb(2, 92, 2);
+}

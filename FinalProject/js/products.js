@@ -109,6 +109,11 @@ window.onShowCart = () => {
     const selectedItems = produce.filter(item => !!item.selectedAmount);
     displayProduce(selectedItems);
     onSaveCart();
+    
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    });
 }
 
 window.onSaveCart = () => {
@@ -153,3 +158,5 @@ const checkQueryParams = () => {
 checkQueryParams();
 
 window.onbeforeunload = onSaveCart;
+
+window.proceedToPurchase = () => window.location.href = "purchase.html";
